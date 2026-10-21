@@ -1,0 +1,56 @@
+# Locally supplied game material and generated research output
+/private/
+/out/
+/RomFS/
+/romfs/
+/ExeFS/
+/exefs/
+/localization_full/
+/text_dump/
+/translation_batches/
+/catalogs/
+repack_work_*/
+*.3ds
+*.cci
+*.cxi
+*.cfa
+*.cia
+*.[bB][iI][nN]
+*.eve
+*.EVE
+*.tga
+*.TGA
+*.bcstm
+*.bcsar
+*.bclim
+*.bflim
+*.nds
+*.new
+# External tools and archives are downloaded independently
+*.exe
+*.dll
+*.zip
+*.7z
+*.rar
+# Credentials and encryption material
+.env
+.env.*
+*.pem
+*.key
+*.keys
+ext_key.txt
+aes_keys.txt
+boot9.bin
+boot11.bin
+movable.sed
+seeddb.bin
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
